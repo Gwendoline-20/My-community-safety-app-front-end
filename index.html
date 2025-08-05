@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WHISTLE</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🚨 WHISTLE</h1>
+    <p>War against GBV... one blow at a time.</p>
+
+    <label for="areaSelect">📍 Select Your Area:</label>
+    <select id="areaSelect">
+      <option value="" disabled selected>Select Area</option>
+      <option value="Ext4">Ext4</option>
+      <option value="Nyanyadu">Nyanyadu</option>
+      <option value="Rest in Peace">Rest in Peace</option>
+      <option value="Masimini">Masimini</option>
+      <option value="Vergenog">Vergenog</option>
+      <option value="White City">White City</option>
+      <option value="Tornado">Tornado</option>
+      <option value="Phomolo">Phomolo</option>
+      <option value="Overline">Overline</option>
+      <option value="New Payneville">New Payneville</option>
+      <option value="Extension 6">Extension 6</option>
+    </select>
+
+    <button id="panicBtn">🚨 PANIC BUTTON</button>
+
+    <div id="confirmation" class="hidden">
+      ✅ Help is on the way! Your alert from <span id="areaDisplay"></span> has been sent.
+    </div>
+
+    <hr/>
+
+    <div class="chat-section">
+      <h2>BLOW A WHISTLE AGAINST GBV</h2>
+      <p>Specify location of GBV activity.</p>
+      <textarea id="incidentMessage" placeholder="Type your message..."></textarea>
+      <a href="form.html" class="link-btn">CLICK HERE TO PROVIDE YOUR DETAILS</a>
+    </div>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
